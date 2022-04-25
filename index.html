@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../App/fontawesome/css/all.min.css">
+    <link rel="icon" href="./assets/music-icon-ico-25.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="/toastMessage/style.css">
+    <title>MusicPlayer</title>
+</head>
+<body>
+    <div class="container">
+        <div class="controller-box">
+            <div class="header">
+                <h4>Now playing:</h4>
+                <h2>Sting 57th</h2>
+            </div>
+            <div class="cd">
+                <div class="cd__thumb" style="background-image: url('https://i.ytimg.com/vi/jTLhQf5KJSc/maxresdefault.jpg')"></div>
+            </div>
+            <div class="controller-bar">
+                <div class="btn repeat">
+                    <i class="fa-solid fa-rotate-right"></i>
+                </div>
+                <div class="btn prev">
+                    <i class="fa-solid fa-backward-step"></i>
+                </div>
+                <div class="btn play">
+                    <i class="fa-solid fa-play toggle-play"></i>
+                    <i class="fa-solid fa-pause toggle-pause"></i>
+                </div>
+                <div class="btn next">
+                    <i class="fa-solid fa-forward-step"></i>
+                </div>
+                <div class="btn random">
+                    <i class="fa-solid fa-shuffle"></i>
+                </div>
+            </div>
+            <input id="progress" class="progress" type="range" value="0" step="1" min="0" max="100">
+            <audio id="audio" src=""></audio>
+            <div class="volume">
+                <input id="volume" type="range" value="0" step="10" min="0" max="100">
+                <i class="fa-solid fa-volume-high"></i>
+            </div>
+        </div>
+
+        <div class="playlist-box">
+            <ul class="playlist">
+            </ul>
+        </div>
+    </div>
+    <div id="toast"></div>
+    <script src="app.js"></script>
+    <script src="/toastMessage/toastJS.js"></script>
+</body>
+</html>
