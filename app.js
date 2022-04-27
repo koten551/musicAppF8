@@ -32,26 +32,26 @@ const app = {
         {
           name: "Click Pow Get Down",
           singer: "Raftaar x Fortnite",
-          path: "/musicPlayer/song/24h.mp3",
+          path: "./song/24h.mp3",
           image: "https://i.ytimg.com/vi/jTLhQf5KJSc/maxresdefault.jpg"
         },
         {
           name: "Tu Phir Se Aana",
           singer: "Raftaar x Salim Merchant x Karma",
-          path: "/musicPlayer/song/102.mp3",
+          path: "./song/102.mp3",
           image:
             "https://1.bp.blogspot.com/-kX21dGUuTdM/X85ij1SBeEI/AAAAAAAAKK4/feboCtDKkls19cZw3glZWRdJ6J8alCm-gCNcBGAsYHQ/s16000/Tu%2BAana%2BPhir%2BSe%2BRap%2BSong%2BLyrics%2BBy%2BRaftaar.jpg"
         },
         {
           name: "Naachne Ka Shaunq",
           singer: "Raftaar x Brobha V",
-          path:"/musicPlayer/song/Believe.mp3",
+          path:"./song/Believe.mp3",
           image: "https://i.ytimg.com/vi/QvswgfLDuPg/maxresdefault.jpg"
         },
         {
           name: "Mantoiyat",
           singer: "Raftaar x Nawazuddin Siddiqui",
-          path: "/musicPlayer/song/cryoveryou.mp3",
+          path: "./song/cryoveryou.mp3",
           image:
             "https://a10.gaanacdn.com/images/song/39/24225939/crop_480x480_1536749130.jpg"
         },
@@ -65,52 +65,25 @@ const app = {
         {
           name: "Damn",
           singer: "Raftaar x kr$na",
-          path:"/musicPlayer/song/ngaynao.mp3",
+          path:"./song/ngaynao.mp3",
           image:
             "https://i.ytimg.com/vi/jTLhQf5KJSc/maxresdefault.jpg"
         },
         {
           name: "Feeling You",
           singer: "Raftaar x Harjas",
-          path: "/musicPlayer/song/WaitingForLove.mp3",
+          path: "./song/WaitingForLove.mp3",
           image:
             "https://a10.gaanacdn.com/gn_img/albums/YoEWlabzXB/oEWlj5gYKz/size_xxl_1586752323.webp"
         },
         {
           name: "Feeling You",
           singer: "Raftaar x Harjas",
-          path: "/musicPlayer/song/WaitingForLove.mp3",
+          path: "./song/WaitingForLove.mp3",
           image:
             "https://a10.gaanacdn.com/gn_img/albums/YoEWlabzXB/oEWlj5gYKz/size_xxl_1586752323.webp"
         },
-        {
-          name: "Feeling You",
-          singer: "Raftaar x Harjas",
-          path: "/musicPlayer/song/WaitingForLove.mp3",
-          image:
-            "https://a10.gaanacdn.com/gn_img/albums/YoEWlabzXB/oEWlj5gYKz/size_xxl_1586752323.webp"
-        },
-        {
-          name: "Feeling You",
-          singer: "Raftaar x Harjas",
-          path: "/musicPlayer/song/WaitingForLove.mp3",
-          image:
-            "https://a10.gaanacdn.com/gn_img/albums/YoEWlabzXB/oEWlj5gYKz/size_xxl_1586752323.webp"
-        },
-        {
-          name: "Feeling You",
-          singer: "Raftaar x Harjas",
-          path: "/musicPlayer/song/WaitingForLove.mp3",
-          image:
-            "https://a10.gaanacdn.com/gn_img/albums/YoEWlabzXB/oEWlj5gYKz/size_xxl_1586752323.webp"
-        },
-        {
-          name: "Feeling You",
-          singer: "Raftaar x Harjas",
-          path: "/musicPlayer/song/WaitingForLove.mp3",
-          image:
-            "https://a10.gaanacdn.com/gn_img/albums/YoEWlabzXB/oEWlj5gYKz/size_xxl_1586752323.webp"
-        }
+    
       ],
     defineProperties: function() {
       Object.defineProperty(this, "currentSong", {
